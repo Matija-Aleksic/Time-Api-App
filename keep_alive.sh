@@ -5,7 +5,7 @@ while true; do
         echo "Container is running"
     else
         echo "Container is not running, restarting..."
-        docker start your-app-container
+        docker start time_api_app
     fi
     sleep 60
 done
