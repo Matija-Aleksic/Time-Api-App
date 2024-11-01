@@ -1,0 +1,6 @@
+2024-11-01 14:54:24.535766+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HISTORY" not found (this database is empty); SQL statement:
+SELECT * from PUBLIC.HISTORY where id = ? [42104-224]
+2024-11-01 14:54:50.014962+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HISTORY" not found (this database is empty); SQL statement:
+SELECT * from PUBLIC.HISTORY where id = ? [42104-224]
