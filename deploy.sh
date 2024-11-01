@@ -1,8 +1,10 @@
 #!/bin/bash
 
-# Define container name and image
 CONTAINER_NAME="Time_Api_App"
 IMAGE_NAME="time_api_app"
+
+echo "Building Docker image..."
+docker build -t $IMAGE_NAME .
 
 if [ "$(docker ps -q -f name=$CONTAINER_NAME)" ]; then
     echo "Stopping existing container..."
